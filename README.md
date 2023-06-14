@@ -2,6 +2,8 @@
 
 Sample of batch registration of data to a table in SQLServer with BulkCopy
 
+
+```
 USE [TestDB]
 GO
 
@@ -25,5 +27,5 @@ GO
 
 ALTER TABLE [dbo].[BulkTable] ADD  CONSTRAINT [DF_BulkTable_Flag]  DEFAULT ((0)) FOR [Flag]
 GO
-
+```
 
